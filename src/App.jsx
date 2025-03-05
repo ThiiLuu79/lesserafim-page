@@ -1,5 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Make sure Bootstrap is installed
+import 'bootstrap/dist/css/bootstrap.min.css';
+import LeSserafimMV from './components/lesserafim-mv';
 
 function App() {
   return (
@@ -60,24 +61,27 @@ function App() {
           <h2 className="text-center mb-4">Music Videos</h2>
           <p className="text-center">Here are some of LE SSERAFIM's music videos!</p>
 
-          {/* Individual Music Video Embeds */}
-          {['Crazy', 'Easy', 'Unforgiven', 'Antifragile', 'Fearless'].map((title, index) => (
-            <div className="mb-4" key={index}>
-              <h5 className="text-center">{title}</h5>
-              <div className="text-center">
-                <iframe
-                  width="560"
-                  height="315"
-                  src={`https://www.youtube.com/embed/${getVideoId(title)}?si=${generateVideoParams()}`}
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </div>
-          ))}
+          <LeSserafimMV
+            title="Crazy"
+            iframeSrc="https://www.youtube.com/embed/n6B5gQXlB-0?si=xH4x4YGU9xyu72Y7"
+          />
+          <LeSserafimMV
+            title="Easy"
+            iframeSrc="https://www.youtube.com/embed/bNKXxwOQYB8?si=-FLtINBbVuUTzuB_"
+          />
+          <LeSserafimMV
+            title="Unforgiven"
+            iframeSrc="https://www.youtube.com/embed/UBURTj20HXI?si=kg7bfmUuBgQeAJtQ"
+          />
+          <LeSserafimMV
+            title="Antifragile"
+            iframeSrc="https://www.youtube.com/embed/pyf8cbqyfPs?si=ymHdi7xN4gJVomBH"
+          />
+          <LeSserafimMV
+            title="Fearless"
+            iframeSrc="https://www.youtube.com/embed/4vbDFu0PUew?si=i29enPmghXN-pPM7"
+          />
+
         </div>
       </section>
 
@@ -118,21 +122,5 @@ function App() {
     </div>
   );
 }
-
-// Helper functions for YouTube embeds (to simulate dynamic embedding)
-const getVideoId = (title) => {
-  const videoIds = {
-    'Crazy': 'n6B5gQXlB-0',
-    'Easy': 'bNKXxwOQYB8',
-    'Unforgiven': 'UBURTj20HXI',
-    'Antifragile': 'pyf8cbqyfPs',
-    'Fearless': '4vbDFu0PUew',
-  };
-  return videoIds[title];
-};
-
-const generateVideoParams = () => {
-  return Math.random().toString(36).substring(2, 15);
-};
 
 export default App;
