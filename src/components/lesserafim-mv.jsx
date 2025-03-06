@@ -3,7 +3,7 @@ import React from 'react';
 function LeSserafimMV({ title, iframeSrc }) {
   return (
     <div className="col">
-        <div className="card">
+        <div className="card shadow-lg">
         <div className="ratio ratio-16x9">
             <iframe
                 title={title}

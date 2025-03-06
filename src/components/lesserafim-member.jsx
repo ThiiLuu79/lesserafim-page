@@ -3,7 +3,7 @@ import React from 'react';
 const LeSserafimMember = ({ name, imageSrc, description }) => {
   return (
     <div className="col-md-4 mb-4">
-      <div className="card" style={{ height: '400px' }}>
+      <div className="card shadow-lg" style={{ height: '400px' }}>
         <img 
           src={imageSrc} 
           alt={name} 
