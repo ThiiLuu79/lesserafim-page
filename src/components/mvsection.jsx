@@ -10,7 +10,10 @@ const MVSection = () => {
     { title: "Smart", iframeSrc: "https://www.youtube.com/embed/KNexS61fjus?si=4C047g0RYZrPZj9p_" },
     { title: "Easy", iframeSrc: "https://www.youtube.com/embed/bNKXxwOQYB8?si=-FLtINBbVuUTzuB_" },
     { title: "Perfect Night", iframeSrc: "https://www.youtube.com/embed/hLvWy2b857I?si=iOwxBOmwtejCcFQh" },
+    { title: "Eve, Psyche & The Bluebeard's wife", iframeSrc: "https://www.youtube.com/embed/dZs_cLHfnNA?si=Vk8Gnf4lCaztq8VR" },
     { title: "Unforgiven", iframeSrc: "https://www.youtube.com/embed/UBURTj20HXI?si=kg7bfmUuBgQeAJtQ" },
+    { title: "Impurities", iframeSrc: "https://www.youtube.com/embed/Ccz123Jlflc?si=utodbZyVQiPPXZsX" },
+    { title: "Good Parts", iframeSrc: "https://www.youtube.com/embed/jJxMlmf58SM?si=5gkt4dnG_4kYWFoQ" },
     { title: "Antifragile", iframeSrc: "https://www.youtube.com/embed/pyf8cbqyfPs?si=ymHdi7xN4gJVomBH" },
     { title: "Fearless", iframeSrc: "https://www.youtube.com/embed/4vbDFu0PUew?si=i29enPmghXN-pPM7" }
   ];
