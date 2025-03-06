@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  transition: transform 0.4s ease-in-out;
+  width: 100vw !important; /* Forces full width */
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+.navbar.show {
+  transform: translateY(0);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+}
+
+.member-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.member-card:hover {
+  transform: scale(1.05);
+}
+
+.member-card::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3) 20%, rgba(255, 255, 255, 0) 80%);
+  transform: rotate(25deg);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.member-card:hover::before {
+  opacity: 1;
+  top: 0;
+  left: 0;
+  transition: top 0.5s ease-in-out, left 0.5s ease-in-out;
+}
+

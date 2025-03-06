@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -9,8 +10,6 @@ import Header from './components/header';
 import About from './components/about';
 import Footer from './components/footer';
 
-
-
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,14 +19,16 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <About />
-      <MVSection />
-      <MembersSection />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Header />
+        <About />
+        <MVSection />
+        <MembersSection />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
