@@ -21,23 +21,22 @@ function App() {
 
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Header />
-        <About />
-        <MVSection />
-        <Routes>
-          <Route path="/" element={
-            <>
-              <Header />
-              <About />
-              <MembersSection />
-            </>
-          } />
-          <Route path="/members/:id" element={<MemberDetails />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Routes>
+        {/* Home Page */}
+        <Route path="/" element={
+          <>
+            <Navbar />
+            <Header />
+            <About />
+            <MVSection />
+            <MembersSection />
+            <Footer />
+          </>
+        } />
+        
+        {/* Member Details Page (Separate Layout) */}
+        <Route path="/members/:id" element={<MemberDetails />} />
+      </Routes>
     </Router>
   );
 }

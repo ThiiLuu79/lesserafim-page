@@ -1,12 +1,12 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import membersData from "../data/membersData";
 import { FaInstagram } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const MemberDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const member = membersData.find((m) => m.id === parseInt(id));
 
   if (!member) {
@@ -15,7 +15,7 @@ const MemberDetails = () => {
 
   return (
     <div className="container mt-5">
-      <Link to="/" className="btn btn-secondary mb-4">← Back to Members</Link>
+      <button className="btn btn-secondary mb-4" onClick={() => navigate("/")}>← Back to Members</button>
       <div className="card shadow-lg p-4">
         <div className="row">
           <div className="col-md-4 text-center">
