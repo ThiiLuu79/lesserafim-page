@@ -1,5 +1,10 @@
 import React from 'react';
-import chaewon from "../images/members/chaewon.png";
+import TimelineItem from './timelineitem';
+import predebut from "../images/timeline/logo.png";
+import fearless from "../images/timeline/fearless.png";
+import unforgiven from "../images/timeline/unforgiven.png";
+import mtv from "../images/timeline/mtv.png";
+import hot from "../images/timeline/hot.png";
 
 const Timeline = () => {
 
@@ -8,70 +13,48 @@ const Timeline = () => {
         <div class="container">
         <div class="row justify-content-center">
             <div class="col-10 col-md-12 col-xl-10 col-xxl-9">
-
             <ul class="timeline">
-                <li class="timeline-item left" data-aos="fade-right">
-                <div class="timeline-body">
-                    <div class="timeline-content">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src={chaewon} alt="Bootstrap 5"/>
-                        <div class="card-body border border-top-0 border-light-subtle">
-                        <h2 class="card-title mb-2">Bootstrap 5</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">Active Support</h6>
-                        <p class="card-text mb-2">Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.</p>
-                        <p class="card-text m-0"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </li>
-                <li class="timeline-item right" data-aos="fade-right">
-                <div class="timeline-body">
-                    <div class="timeline-content">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src={chaewon} alt="Bootstrap 4"/>
-                        <div class="card-body border border-top-0 border-light-subtle">
-                        <h2 class="card-title mb-2">Bootstrap 4</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">No Active Support</h6>
-                        <p class="card-text mb-2">Get started with Bootstrap, the world’s most popular framework for building responsive, mobile-first sites, with jsDelivr and a template starter page. Bootstrap 4 has no active support.</p>
-                        <p class="card-text m-0"><small class="text-body-secondary">Last updated 2 months ago</small></p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </li>
-                <li class="timeline-item left" data-aos="fade-right">
-                <div class="timeline-body">
-                    <div class="timeline-content">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src={chaewon} alt="Bootstrap 3"/>
-                        <div class="card-body border border-top-0 border-light-subtle">
-                        <h2 class="card-title mb-2">Bootstrap 3</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">No Active Support</h6>
-                        <p class="card-text mb-2">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Bootstrap 3 has no active support.</p>
-                        <p class="card-text m-0"><small class="text-body-secondary">Last updated 1 year ago</small></p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </li>
-                <li class="timeline-item right" data-aos="fade-right">
-                <div class="timeline-body">
-                    <div class="timeline-content">
-                    <div class="card border-0">
-                        <img class="card-img-top img-fluid" loading="lazy" src={chaewon} alt="Bootstrap 2"/>
-                        <div class="card-body border border-top-0 border-light-subtle">
-                        <h2 class="card-title mb-2">Bootstrap 2</h2>
-                        <h6 class="card-subtitle text-secondary mb-3">No Active Support</h6>
-                        <p class="card-text mb-2">Sleek, intuitive, and powerful front-end framework for faster and easier web development. Bootstrap 2 is no longer officially supported.</p>
-                        <p class="card-text m-0"><small class="text-body-secondary">Last updated 2 years ago</small></p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </li>
+                <TimelineItem
+                    imageSrc={predebut}
+                    title="Pre-debut"
+                    date="2021"
+                    alt="predebut"
+                    text="In August 2021, rumors emerged that Sakura and Kim Chaewon were joining a new girl group under Source Music, later confirmed when Sakura signed an exclusive contract with Source Music on September 23. Chaewon’s profile was removed from Woollim Entertainment, fueling speculation that she had also signed with HYBE. In March 2022, it was confirmed that Sakura, Chaewon, and Huh Yunjin were part of the new group, LE SSERAFIM, which would debut in May. The group’s name, revealed through a 72-hour countdown, was an anagram of IM FEARLESS. The group’s members were revealed in early April 2022, starting with Sakura, followed by the others. Their debut song snippets and exclusive content were shared, and 120,000 digital souvenirs sold out during the project."
+                    reverse={false}
+                />
+                <TimelineItem
+                    imageSrc={fearless}
+                    title="Fearless"
+                    date="2022"
+                    alt="Fearless"
+                    text="On March 14, Source Music announced a new girl group with Miyawaki Sakura and Kim Chaewon as the first members, and HYBE confirmed their debut in May. The group’s members were revealed from April 4 to 9, and their debut EP, Fearless, was set for release on May 2. Pre-orders surpassed 270,000 copies in a week. The group won their first music show on May 10. Kim Garam faced bullying allegations, but HYBE denied them. She took a hiatus on May 20, and on July 20, it was announced she would leave the group. LE SSERAFIM continued as a five-member group and released their second EP, Antifragile, on October 17, which charted at number 14 on the Billboard 200. On November 24, a webtoon titled Crimson Heart was released based on the group’s message."
+                    reverse={true}
+                />
+                <TimelineItem
+                    imageSrc={unforgiven}
+                    title="Japanese debut and Unforgiven"
+                    date="2023"
+                    alt="Japanese debut and Unforgiven"
+                    text="On January 25, 2023, LE SSERAFIM debuted in Japan with the single Fearless, which included Japanese versions of Fearless and Blue Flame and the original song Choices, the theme for the drama 3000 Yen: How to Enrich Life. In March, they announced a comeback in May with their first studio album, Unforgiven, released on May 1. They also announced their first tour, Flame Rises, starting in August. In July, they released their second Japanese song, Jewelry, from their second single Unforgiven, out on August 23. On October 12, they announced their first English digital single, Perfect Night, in collaboration with Blizzard Entertainment for Overwatch 2, followed by a performance at BlizzCon on November 4. On November 19, they released Dresscode, the theme song for the Japanese live-action series Sexy Tanaka-san."
+                    reverse={false}
+                />
+                <TimelineItem
+                    imageSrc={mtv}
+                    title="Easy, Coachella and Crazy"
+                    date="2024"
+                    alt="Easy, Coachella and Crazy"
+                    text="On January 22, 2024, LE SSERAFIM confirmed the release of their third EP, Easy, on February 19. It debuted at number 8 on the Billboard 200, alongside Twice’s With You at number 1, marking the first time two all-female K-pop acts were in the top 10. The lead single debuted at number 99 on the Billboard Hot 100. English versions of the lead single and Smart were released in February and March. In April, they performed at Coachella, debuting 1-800-Hot-N-Fun. In June, they announced a comeback in August. On July 10, a K-pop exhibit featuring their performance gear was announced at the Grammy Museum. On August 5, it was revealed that their fourth EP, Crazy, would be released on August 30. The English version and remixes of the lead single, including one with Dashaun Wesley, were released in September, followed by remixes with PinkPantheress and David Guetta. On September 11, they performed at the MTV Video Music Awards and won the PUSH Performance of the Year award for Easy. In October, they announced their third Japanese single, Crazy, due for release in December. They also performed at the MTV Europe Music Awards in November, winning Best Push. On November 12, they released Star Signs, a pre-release for Crazy and a campaign song for Lumine."
+                    reverse={true}
+                />
+                <TimelineItem
+                    imageSrc={hot}
+                    title="Hot and first world tour"
+                    date="2025 - Present"
+                    alt="Hot and first world tour"
+                    text="On February 17, 2025, it was announced that Le Sserafim's fifth extended play Hot would be released on March 14. On February 28, the group announced that they would be embarking on their first world tour, Easy Crazy Hot, beginning in Incheon on April 19 and 20."
+                    reverse={false}
+                />
             </ul>
-
             </div>
         </div>
         </div>
