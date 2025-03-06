@@ -1,0 +1,55 @@
+const membersData = [
+    {
+        id: 1,
+        name: "Kim Chaewon",
+        imageSrc: "",
+        description: "Leader and main vocalist of LE SSERAFIM.",
+        birthday: "August 1, 2000",
+        position: "Leader, Vocalist, Dancer",
+        nationality: "South Korean",
+        instagram: "https://www.instagram.com/_chaechae_1/",
+    },
+    {
+        id: 2,
+        name: "Miyawaki Sakura",
+        imageSrc: "",
+        description: "Visual and vocalist of the group.",
+        birthday: "March 19, 1998",
+        position: "Vocalist, Rapper, Dancer",
+        nationality: "Japanese",
+        instagram: "https://www.instagram.com/39saku_chan/",
+    },
+    {
+        id: 3,
+        name: "Huh Yunjin",
+        imageSrc: "",
+        description: "Vocalist of the group.",
+        birthday: "October 8, 2001",
+        position: "Vocalist, Rapper",
+        nationality: "Korean-American",
+        instagram: "https://www.instagram.com/jenaissante/",
+    },
+    {
+        id: 4,
+        name: "Nakamura Kazuha",
+        imageSrc: "",
+        description: "Rapper and Dancer of the group.",
+        birthday: "August 9, 2003",
+        position: "Sub-Vocalist, Rapper, Dancer",
+        nationality: "Japanese",
+        instagram: "https://www.instagram.com/zuhazana/",
+    },
+    {
+        id: 5,
+        name: "Hong Heunchae",
+        imageSrc: "",
+        description: "Lead dancer of the group.",
+        birthday: "November 10, 2006",
+        position: "Vocalist, Lead Dancer, Maknae",
+        nationality: "South Korean",
+        instagram: "https://www.instagram.com/hhh.e_c.v/",
+    },
+  ];
+  
+  export default membersData;
+  
