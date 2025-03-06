@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import MVSection from './components/mvsection';
 import MembersSection from './components/membersection';
 import MemberDetails from './components/memberdetails';
+import MemberDetailsHeader from './components/memberdetailsheader';
 import Navbar from './components/navbar';
 import Header from './components/header';
 import About from './components/about';
@@ -33,9 +34,18 @@ function App() {
             <Footer />
           </>
         } />
-        
-        {/* Member Details Page (Separate Layout) */}
-        <Route path="/members/:id" element={<MemberDetails />} />
+
+        {/* Member Details Page with Navbar, Header, and Footer */}
+        <Route 
+          path="/members/:id" 
+          element={
+            <>
+              <MemberDetailsHeader />
+              <MemberDetails />
+              <Footer />
+            </>
+          } 
+        />
       </Routes>
     </Router>
   );

@@ -14,7 +14,7 @@ const MemberDetails = () => {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5 mb-5" data-aos="fade-right">
       <button className="btn btn-secondary mb-4" onClick={() => navigate("/#members")}>← Back to Members</button>
       <div className="card p-4">
         <div className="row">
