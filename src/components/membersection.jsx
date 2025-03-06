@@ -10,7 +10,7 @@ import eunchaeimg from '../images/members/eunchae.png';
 const MembersSection = () => {
 
   return (
-    <section id="members" className="py-5" data-aos="fade-left">
+    <section id="members" className="py-5" data-aos="fade-right">
         <div className="container">
             <h2 className="text-center mb-4">Meet the Members</h2>
             <div className="row">

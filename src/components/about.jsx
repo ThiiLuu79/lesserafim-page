@@ -4,7 +4,7 @@ import groupPicture from '../images/members/group.png';
 const About = () => {
 
   return (
-      <section id="about" className="py-5" data-aos="fade-left">
+      <section id="about" className="py-5" data-aos="fade-right">
         <div className="container">
           <h2 className="text-center mb-4">About LE SSERAFIM</h2>
           <p className="lead text-center">
