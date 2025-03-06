@@ -30,7 +30,7 @@ const About = () => {
             className="btn btn-dark"
             onClick={toggleTimeline}
           >
-            {showTimeline ? 'See Less' : 'See More'}
+            {showTimeline ? 'Hide timeline' : 'Show timeline'}
           </button>
         </div>
 
