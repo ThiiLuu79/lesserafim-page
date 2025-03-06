@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-dark text-white py-4 text-center">
-        <p>&copy; 2025. ALL RIGHTS RESERVED.</p>
+        <p>&copy; 2024. ALL RIGHTS RESERVED.</p>
         <a 
         href="https://www.instagram.com/le_sserafim/" 
         target="_blank" 
