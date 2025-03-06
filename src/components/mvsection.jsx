@@ -4,7 +4,7 @@ import LeSserafimMV from './lesserafim-mv';
 const MVSection = () => {
 
   return (
-    <section id="music-videos" className="py-5" data-aos="fade-up">
+    <section id="music-videos" className="py-5" data-aos="fade-right">
         <div className="container">
             <h2 className="text-center mb-4">Music Videos</h2>
             <p className="text-center">Here are some of LE SSERAFIM's music videos!</p>

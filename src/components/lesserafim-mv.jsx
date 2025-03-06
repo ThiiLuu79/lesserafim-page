@@ -2,7 +2,7 @@ import React from 'react';
 
 function LeSserafimMV({ title, iframeSrc }) {
   return (
-    <div className="col">
+    <div className="col" data-aos="fade-right">
         <div className="card shadow-lg">
         <div className="ratio ratio-16x9">
             <iframe

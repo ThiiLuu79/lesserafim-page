@@ -2,7 +2,7 @@ import React from 'react';
 
 const LeSserafimMember = ({ name, imageSrc, description }) => {
   return (
-    <div className="col-md-4 mb-4">
+    <div className="col-md-4 mb-4" data-aos="fade-left">
       <div className="card shadow-lg" style={{ height: '400px' }}>
         <img 
           src={imageSrc} 
