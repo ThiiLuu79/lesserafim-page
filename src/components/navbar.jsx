@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top ${showNavbar ? 'show' : 'hide'}`}>
       <div className="container">
-        <a className="navbar-brand" href="#">LE SSERAFIM</a>
+        <a className="navbar-brand" href="#home">LE SSERAFIM</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
         </button>
