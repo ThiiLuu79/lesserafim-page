@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MVSection from './components/mvsection';
 import MembersSection from './components/membersection';
+import MemberDetails from './components/memberdetails';
 import Navbar from './components/navbar';
 import Header from './components/header';
 import About from './components/about';
@@ -25,7 +26,16 @@ function App() {
         <Header />
         <About />
         <MVSection />
-        <MembersSection />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Header />
+              <About />
+              <MembersSection />
+            </>
+          } />
+          <Route path="/members/:id" element={<MemberDetails />} />
+        </Routes>
         <Footer />
       </div>
     </Router>

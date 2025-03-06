@@ -1,6 +1,6 @@
-import React from 'react';
-import LeSserafimMember from './lesserafim-member';
-import membersData from '../data/membersData';
+import React from "react";
+import LeSserafimMember from "./lesserafim-member";
+import membersData from "../data/membersData";
 
 const MembersSection = () => {
   return (
@@ -10,11 +10,12 @@ const MembersSection = () => {
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           {membersData.map((member) => (
             <div key={member.id} className="col">
-                <LeSserafimMember 
-                  name={member.name} 
-                  imageSrc={member.imageSrc} 
-                  description={member.description} 
-                />
+              <LeSserafimMember
+                id={member.id}  // Pass the id
+                name={member.name}
+                imageSrc={member.imageSrc}
+                description={member.description}
+              />
             </div>
           ))}
         </div>
