@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100 ${showNavbar ? 'show' : 'hide'}`}>
-      <div className="container-fluid px-0"> {/* Ensures no extra padding */}
+      <div className="container-fluid px-5"> {/* Ensures no extra padding */}
         <a className="navbar-brand" href="#home">LE SSERAFIM</a>
         <button
           className="navbar-toggler"
