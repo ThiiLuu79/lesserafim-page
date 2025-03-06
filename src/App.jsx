@@ -5,13 +5,15 @@ import 'aos/dist/aos.css';
 import LeSserafimMV from './components/lesserafim-mv';
 import LeSserafimMember from './components/lesserafim-member';
 import Navbar from './components/navbar';
+import Header from './components/header';
+import About from './components/about';
+import Footer from './components/footer';
 
 import chaewonimg from './images/members/chaewon.png';
 import sakuraimg from './images/members/sakura.png';
 import yunjinimg from './images/members/yunjin.png';
 import kazuhaimg from './images/members/kazuha.png';
 import eunchaeimg from './images/members/eunchae.png';
-import groupPicture from './images/members/group.png';
 
 function App() {
   useEffect(() => {
@@ -24,28 +26,8 @@ function App() {
   return (
     <div>
       <Navbar />
-
-      <header id="home" className="text-center text-white bg-dark py-5" data-aos="fade-up">
-        <div className="container py-5">
-          <h1 className="display-4">Welcome to LE SSERAFIM's Fanpage</h1>
-          <p className="lead">I'm Fearless</p>
-        </div>
-      </header>
-
-      <section id="about" className="py-5" data-aos="fade-left">
-        <div className="container">
-          <h2 className="text-center mb-4">About LE SSERAFIM</h2>
-          <p className="lead text-center">
-            LE SSERAFIM is a South Korean girl group formed by Source Music, a sub-label of Hybe. The group consists of five members: Sakura, Kim Chaewon, Huh Yunjin, Kazuha, and Hong Eunchae. Originally a six-member ensemble, member Kim Garam departed from the group in July 2022.
-          </p>
-          <img 
-            src={groupPicture} 
-            alt="lesserafim" 
-            className="d-block mx-auto rounded shadow-lg img-fluid" 
-            style={{ borderRadius: "20px", maxWidth: "80%", height: "auto" }} 
-          />
-        </div>
-      </section>
+      <Header />
+      <About />
 
       <section id="music-videos" className="py-5" data-aos="fade-up">
         <div className="container">
@@ -122,17 +104,7 @@ function App() {
         </div>
       </section>
 
-      <footer className="bg-dark text-white py-4 text-center">
-        <p>&copy; 2025. ALL RIGHTS RESERVED.</p>
-        <a 
-          href="https://www.instagram.com/le_sserafim/" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="btn btn-light mx-2"
-        >
-          <i className="fab fa-instagram"></i> LE SSERAFIM Instagram Page
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
