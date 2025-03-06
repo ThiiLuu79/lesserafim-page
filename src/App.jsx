@@ -118,7 +118,7 @@ function App() {
               <LeSserafimMember
               name="Kim Chaewon"
               imageSrc={chaewonimg}
-              description="Kim Chae-won is a South Korean singer and leader of LE SSERAFIM. She is known for her captivating voice and leadership skills in the group."
+              description="Kim Chaewon is a South Korean singer and leader of LE SSERAFIM. She is known for her captivating voice and leadership skills in the group."
             />
             <LeSserafimMember
               name="Miyawaki Sakura"
@@ -128,7 +128,7 @@ function App() {
             <LeSserafimMember
               name="Huh Yunjin"
               imageSrc={yunjinimg}
-              description="Huh Yun-jin is a talented vocalist known for her rich voice and emotional depth. She brings a lot of soul to LE SSERAFIM's music."
+              description="Huh Yunjin is a talented vocalist known for her rich voice and emotional depth. She brings a lot of soul to LE SSERAFIM's music."
             />
             <LeSserafimMember
               name="Nakamura Kazuha"
@@ -138,7 +138,7 @@ function App() {
             <LeSserafimMember
               name="Hong Eunchae"
               imageSrc={eunchaeimg}
-              description="Hong Eun-chae is the youngest member of LE SSERAFIM, known for her bright energy and impressive vocal abilities at such a young age."
+              description="Hong Eunchae is the youngest member of LE SSERAFIM, known for her bright energy and impressive vocal abilities at such a young age."
             />
           </div>
         </div>
