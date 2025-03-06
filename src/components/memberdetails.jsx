@@ -15,7 +15,7 @@ const MemberDetails = () => {
 
   return (
     <div className="container mt-5">
-      <button className="btn btn-secondary mb-4" onClick={() => navigate("/")}>← Back to Members</button>
+      <button className="btn btn-secondary mb-4" onClick={() => navigate("/#members")}>← Back to Members</button>
       <div className="card shadow-lg p-4">
         <div className="row">
           <div className="col-md-4 text-center">
@@ -35,8 +35,24 @@ const MemberDetails = () => {
               <li className="list-group-item"><strong>Nationality:</strong> {member.nationality}</li>
             </ul>
             <div className="mt-3">
-              <a href={member.instagram} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
-                <FaInstagram className="me-2" /> Instagram
+              <a
+                href={member.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+                style={{
+                  background: "linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4)",
+                  color: "white",
+                  borderRadius: "5px",
+                  padding: "10px 20px",
+                  fontSize: "16px",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  textDecoration: "none",
+                }}
+              >
+                <FaInstagram className="me-2" />
+                Instagram
               </a>
             </div>
           </div>
