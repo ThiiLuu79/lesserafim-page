@@ -47,7 +47,7 @@ const membersData = [
     },
     {
         id: 5,
-        name: "Hong Heunchae",
+        name: "Hong Eunchae",
         imageSrc: eunchae,
         description: "Hong Eunchae is the youngest member of LE SSERAFIM, known for her bright energy and impressive vocal abilities at such a young age.",
         birthday: "November 10, 2006",
