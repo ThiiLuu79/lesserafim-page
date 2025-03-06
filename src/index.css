@@ -17,14 +17,6 @@ code {
   width: 100vw !important; /* Forces full width */
 }
 
-.navbar.hide {
-  transform: translateY(-100%);
-}
-
-.navbar.show {
-  transform: translateY(0);
-}
-
 html, body {
   margin: 0;
   padding: 0;

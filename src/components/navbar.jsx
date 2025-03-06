@@ -1,28 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 const Navbar = () => {
-  const [showNavbar, setShowNavbar] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
-        setShowNavbar(false); // Hide when scrolling down
-      } else {
-        setShowNavbar(true); // Show when scrolling up
-      }
-      setLastScrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [lastScrollY]);
 
   return (
-    <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100 ${showNavbar ? 'show' : 'hide'}`}>
-      <div className="container-fluid px-5"> {/* Ensures no extra padding */}
+    <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100`}>
+      <div className="container-fluid px-5">
         <a className="navbar-brand" href="#home">LE SSERAFIM</a>
         <button
           className="navbar-toggler"
