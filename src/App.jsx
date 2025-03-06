@@ -1,5 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import LeSserafimMV from './components/lesserafim-mv';
 import LeSserafimMember from './components/lesserafim-member';
 
@@ -10,6 +12,13 @@ import kazuhaimg from './images/members/kazuha.png';
 import eunchaeimg from './images/members/eunchae.png';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,  // Animation duration in ms
+      once: true,      // Ensures the animation runs only once
+    });
+  }, []);
+
   return (
     <div>
       {/* Navbar */}
@@ -44,23 +53,23 @@ function App() {
         </div>
       </nav>
 
-      <header id="home" className="text-center text-white bg-dark py-5">
+      <header id="home" className="text-center text-white bg-dark py-5" data-aos="fade-up">
         <div className="container">
           <h1 className="display-4">Welcome to LE SSERAFIM's Fanpage</h1>
           <p className="lead">I'm Fearless</p>
         </div>
       </header>
 
-      <section id="about" class="py-5">
-        <div class="container">
-          <h2 class="text-center mb-4">About LE SSERAFIM</h2>
-          <p class="lead text-center">
+      <section id="about" className="py-5" data-aos="fade-left">
+        <div className="container">
+          <h2 className="text-center mb-4">About LE SSERAFIM</h2>
+          <p className="lead text-center">
             LE SSERAFIM is a South Korean girl group formed by Source Music, a sub-label of Hybe. The group consists of five members: Sakura, Kim Chaewon, Huh Yunjin, Kazuha, and Hong Eunchae. Originally a six-member ensemble, member Kim Garam departed from the group in July 2022.
           </p>
         </div>
       </section>
 
-      <section id="music-videos" className="py-5">
+      <section id="music-videos" className="py-5" data-aos="fade-up">
         <div className="container">
           <h2 className="text-center mb-4">Music Videos</h2>
           <p className="text-center">Here are some of LE SSERAFIM's music videos!</p>
@@ -69,28 +78,28 @@ function App() {
             <LeSserafimMV
                 title="Crazy"
                 iframeSrc="https://www.youtube.com/embed/n6B5gQXlB-0?si=xH4x4YGU9xyu72Y7"
-              />
-              <LeSserafimMV
+            />
+            <LeSserafimMV
                 title="Easy"
                 iframeSrc="https://www.youtube.com/embed/bNKXxwOQYB8?si=-FLtINBbVuUTzuB_"
-              />
-              <LeSserafimMV
+            />
+            <LeSserafimMV
                 title="Unforgiven"
                 iframeSrc="https://www.youtube.com/embed/UBURTj20HXI?si=kg7bfmUuBgQeAJtQ"
-              />
-              <LeSserafimMV
+            />
+            <LeSserafimMV
                 title="Antifragile"
                 iframeSrc="https://www.youtube.com/embed/pyf8cbqyfPs?si=ymHdi7xN4gJVomBH"
-              />
-              <LeSserafimMV
+            />
+            <LeSserafimMV
                 title="Fearless"
                 iframeSrc="https://www.youtube.com/embed/4vbDFu0PUew?si=i29enPmghXN-pPM7"
-              />
+            />
           </div>
         </div>
       </section>
 
-      <section id="members" className="py-5">
+      <section id="members" className="py-5" data-aos="fade-right">
         <div className="container">
           <h2 className="text-center mb-4">Meet the Members</h2>
           <div className="row">
