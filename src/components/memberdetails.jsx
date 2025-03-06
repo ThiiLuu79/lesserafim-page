@@ -16,7 +16,7 @@ const MemberDetails = () => {
   return (
     <div className="container mt-5">
       <button className="btn btn-secondary mb-4" onClick={() => navigate("/#members")}>← Back to Members</button>
-      <div className="card shadow-lg p-4">
+      <div className="card p-4">
         <div className="row">
           <div className="col-md-4 text-center">
             <img 
