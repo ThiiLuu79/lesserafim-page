@@ -10,6 +10,7 @@ import sakuraimg from './images/members/sakura.png';
 import yunjinimg from './images/members/yunjin.png';
 import kazuhaimg from './images/members/kazuha.png';
 import eunchaeimg from './images/members/eunchae.png';
+import groupPicture from './images/members/group.png';
 
 function App() {
   useEffect(() => {
@@ -23,7 +24,6 @@ function App() {
     <div>
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">LE SSERAFIM</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -66,6 +66,12 @@ function App() {
           <p className="lead text-center">
             LE SSERAFIM is a South Korean girl group formed by Source Music, a sub-label of Hybe. The group consists of five members: Sakura, Kim Chaewon, Huh Yunjin, Kazuha, and Hong Eunchae. Originally a six-member ensemble, member Kim Garam departed from the group in July 2022.
           </p>
+          <img 
+            src={groupPicture} 
+            alt="lesserafim" 
+            className="d-block mx-auto rounded shadow-lg img-fluid" 
+            style={{ borderRadius: "20px", maxWidth: "80%", height: "auto" }} 
+          />
         </div>
       </section>
 
