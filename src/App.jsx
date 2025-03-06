@@ -66,56 +66,26 @@ function App() {
           <p className="text-center">Here are some of LE SSERAFIM's music videos!</p>
 
           <div className="row row-cols-1 row-cols-md-3 g-4">
-            <div className="col">
-              <div className="card">
-                <div className="ratio ratio-16x9">
-                  <LeSserafimMV
-                    title="Crazy"
-                    iframeSrc="https://www.youtube.com/embed/n6B5gQXlB-0?si=xH4x4YGU9xyu72Y7"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <div className="ratio ratio-16x9">
-                  <LeSserafimMV
-                    title="Easy"
-                    iframeSrc="https://www.youtube.com/embed/bNKXxwOQYB8?si=-FLtINBbVuUTzuB_"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <div className="ratio ratio-16x9">
-                  <LeSserafimMV
-                    title="Unforgiven"
-                    iframeSrc="https://www.youtube.com/embed/UBURTj20HXI?si=kg7bfmUuBgQeAJtQ"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <div className="ratio ratio-16x9">
-                  <LeSserafimMV
-                    title="Antifragile"
-                    iframeSrc="https://www.youtube.com/embed/pyf8cbqyfPs?si=ymHdi7xN4gJVomBH"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col">
-              <div className="card">
-                <div className="ratio ratio-16x9">
-                  <LeSserafimMV
-                    title="Fearless"
-                    iframeSrc="https://www.youtube.com/embed/4vbDFu0PUew?si=i29enPmghXN-pPM7"
-                  />
-                </div>
-              </div>
-            </div>
+            <LeSserafimMV
+                title="Crazy"
+                iframeSrc="https://www.youtube.com/embed/n6B5gQXlB-0?si=xH4x4YGU9xyu72Y7"
+              />
+              <LeSserafimMV
+                title="Easy"
+                iframeSrc="https://www.youtube.com/embed/bNKXxwOQYB8?si=-FLtINBbVuUTzuB_"
+              />
+              <LeSserafimMV
+                title="Unforgiven"
+                iframeSrc="https://www.youtube.com/embed/UBURTj20HXI?si=kg7bfmUuBgQeAJtQ"
+              />
+              <LeSserafimMV
+                title="Antifragile"
+                iframeSrc="https://www.youtube.com/embed/pyf8cbqyfPs?si=ymHdi7xN4gJVomBH"
+              />
+              <LeSserafimMV
+                title="Fearless"
+                iframeSrc="https://www.youtube.com/embed/4vbDFu0PUew?si=i29enPmghXN-pPM7"
+              />
           </div>
         </div>
       </section>
