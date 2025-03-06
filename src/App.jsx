@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import LeSserafimMV from './components/lesserafim-mv';
 import LeSserafimMember from './components/lesserafim-member';
+import Navbar from './components/navbar';
 
 import chaewonimg from './images/members/chaewon.png';
 import sakuraimg from './images/members/sakura.png';
@@ -22,39 +23,10 @@ function App() {
 
   return (
     <div>
-      {/* Navbar */}
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link active" href="#home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#music-videos">Music Videos</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#members">Members</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
 
       <header id="home" className="text-center text-white bg-dark py-5" data-aos="fade-up">
-        <div className="container">
+        <div className="container py-5">
           <h1 className="display-4">Welcome to LE SSERAFIM's Fanpage</h1>
           <p className="lead">I'm Fearless</p>
         </div>
