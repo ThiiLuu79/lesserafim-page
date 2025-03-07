@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const LeSserafimMember = ({ id, name, imageSrc, description }) => {
+const LeSserafimMember = ({ id, name, imageSrc, position }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -10,7 +10,7 @@ const LeSserafimMember = ({ id, name, imageSrc, description }) => {
 
   return (
     <div data-aos="fade-right" onClick={handleClick} style={{ cursor: "pointer" }}>
-      <div className="card member-card shadow-lg" style={{ height: "400px" }}>
+      <div className="card member-card shadow-lg">
         <img
           src={imageSrc}
           alt={name}
@@ -19,8 +19,8 @@ const LeSserafimMember = ({ id, name, imageSrc, description }) => {
         />
         <div className="card-body">
           <h5 className="card-title text-center">{name}</h5>
-          <p className="card-text" style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "120px" }}>
-            {description}
+          <p className="card-text text-center" style={{ overflow: "hidden", textOverflow: "ellipsis", maxHeight: "120px" }}>
+            {position}
           </p>
         </div>
       </div>

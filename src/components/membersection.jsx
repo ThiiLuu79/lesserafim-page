@@ -14,7 +14,7 @@ const MembersSection = () => {
                 id={member.id}  // Pass the id
                 name={member.name}
                 imageSrc={member.imageSrc}
-                description={member.description}
+                position={member.position}
               />
             </div>
           ))}
