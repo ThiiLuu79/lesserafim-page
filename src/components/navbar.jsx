@@ -7,7 +7,6 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg navbar-dark bg-dark fixed-top w-100`}>
       <div className="container-fluid px-5">
-        <a className="navbar-brand" href="#home">LE SSERAFIM</a>
         <button
           className="navbar-toggler"
           type="button"
