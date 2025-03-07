@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# LE SSERAFIM Fanpage 🎶✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![LE SSERAFIM](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFyczQzcDIyZzFvZ2s3OGFscnR6eG92aDhrMnl5YzNicjg0c25iMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BGHQjwIqWlfXu3JHDy/giphy.gif)
 
-## Available Scripts
+## About 📌
+Welcome to the **LE SSERAFIM Fanpage**, a React single-page application dedicated to the incredible journey of LE SSERAFIM! This fanpage celebrates their milestones, discography, and members with an engaging and visually appealing layout.
 
-In the project directory, you can run:
+## Features 🌟
+- **📅 Timeline of Milestones** – Follow LE SSERAFIM's rise to success from debut to present.
+- **🎶 Music Videos Section** – Watch their official MVs directly on the page.
+- **👑 Member Profiles** – Learn more about each member with bios and images.
+- **💜 Stylish UI** – Designed to reflect the elegance and power of LE SSERAFIM.
 
-### `npm start`
+![LE SSERAFIM Dance](https://media.giphy.com/media/HFIRcwvz0Uek9xVCws/giphy.gif?cid=ecf05e474lv7dzes6xt252s5n7gwfj5vthaemvw5ux76q6w9&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used 🛠️
+- **React** – For a dynamic and seamless user experience.
+- **CSS & Styled Components** – To enhance the UI with custom styling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Why This Project? 💡
+As a passionate fan of LE SSERAFIM, I wanted to create a space where fellow fans can relive their best moments and explore their discography in an interactive way.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![LE SSERAFIM FUNNY](https://media.giphy.com/media/V352uSVpcsqDF57xoN/giphy.gif?cid=ecf05e4795btrop8cmkt1ovhauu8luc6qyfd6wz1x0b3g0gl&ep=v1_gifs_search&rid=giphy.gif&ct=g)
