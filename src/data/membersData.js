@@ -3,12 +3,14 @@ import sakura from "../images/members/sakura.png";
 import yunjin from "../images/members/yunjin.png";
 import kazuha from "../images/members/kazuha.png";
 import eunchae from "../images/members/eunchae.png";
+import garam from "../images/members/garam.png";
 
 import chaewon2 from "../images/members/chaewon2.png";
 import sakura2 from "../images/members/sakura2.png";
 import yunjin2 from "../images/members/yunjin2.png";
 import kazuha2 from "../images/members/kazuha2.png";
 import eunchae2 from "../images/members/eunchae2.png";
+import garam2 from "../images/members/garam2.png";
 
 
 const membersData = [
@@ -101,6 +103,24 @@ const membersData = [
         mbti : "ISFJ",
         zodiac : "Scorpio",
         chineseZodiac : "Dog",
+    },
+    {
+        id: 6,
+        name: "Kim Garam",
+        birthname: "Kim Ga-ram",
+        imageSrc: garam,
+        imageSrc2: garam2,
+        description: "Kim Garam is a South Korean former singer. She is a former member of the girl group LE SSERAFIM.",
+        birthday: "November 16, 2005",
+        position: "Vocalist, Rapper, (Former member)",
+        nationality: "South Korean",
+        instagram: "",
+        height : "170 cm (5’7”)",
+        weight : "N/A",
+        bloodType : "B",
+        mbti : "ISTP",
+        zodiac : "Scorpio",
+        chineseZodiac : "Rooster",
     },
   ];
   

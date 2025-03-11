@@ -3,8 +3,10 @@ import { useParams, useNavigate } from "react-router-dom";
 import membersData from "../data/membersData";
 import { FaInstagram } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTopOnLoad from "./scrollToTopOnLoad";
 
 const MemberDetails = () => {
+  ScrollToTopOnLoad();
   const { id } = useParams();
   const navigate = useNavigate();
   const member = membersData.find((m) => m.id === parseInt(id));
@@ -15,7 +17,7 @@ const MemberDetails = () => {
 
   return (
     <div className="container mt-5 mb-5" data-aos="fade-right">
-      <button className="btn btn-secondary mb-4" onClick={() => navigate("/")}>← Back to Homepage</button>
+      <button className="btn btn-secondary mb-4" onClick={() => navigate("/", { state: { scrollTo: "members" } })}>← Back to Homepage</button>
       <div className="card shadow-lg p-4">
         <p>Informations are taken from <a href="https://kprofiles.com/le-sserafim-members-profile/" target="_blank" rel="noreferrer">LE SSERAFIM Members Profile</a> </p>
         <div className="row">
@@ -42,6 +44,7 @@ const MemberDetails = () => {
               <li className="list-group-item"><strong>Blood Type:</strong> {member.bloodType}</li>
               <li className="list-group-item"><strong>MBTI:</strong> {member.mbti}</li>
             </ul>
+            {member.instagram && (
             <div className="mt-3">
               <a
                 href={member.instagram}
@@ -62,7 +65,8 @@ const MemberDetails = () => {
                 <FaInstagram className="me-2" />
                 Instagram
               </a>
-            </div>
+             </div>
+            )}
           </div>
         </div>
       </div>
