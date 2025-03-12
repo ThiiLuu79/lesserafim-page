@@ -15,7 +15,7 @@ import garam2 from "../images/members/garam2.png";
 
 const membersData = [
     {
-        id: 1,
+        id: "chaewon",
         name: "Kim Chaewon",
         birthname : "Kim Chaewon",
         imageSrc: chaewon,
@@ -33,7 +33,7 @@ const membersData = [
         chineseZodiac : "Dragon",
     },
     {
-        id: 2,
+        id: "sakura",
         name: "Sakura",
         birthname : "Miyawaki Sakura",
         imageSrc: sakura,
@@ -51,7 +51,7 @@ const membersData = [
         chineseZodiac : "Tiger",
     },
     {
-        id: 3,
+        id: "yunjin",
         name: "Huh Yunjin",
         birthname: "Huh Yun-jin",
         imageSrc: yunjin,
@@ -69,7 +69,7 @@ const membersData = [
         chineseZodiac : "Snake",
     },
     {
-        id: 4,
+        id: "kazuha",
         name: "Kazuha",
         birthname: "Nakamura Kazuha",
         imageSrc: kazuha,
@@ -87,7 +87,7 @@ const membersData = [
         chineseZodiac : "Goat",
     },
     {
-        id: 5,
+        id: "eunchae",
         name: "Hong Eunchae",
         birthname: "Hong Eun-chae",
         imageSrc: eunchae,
@@ -105,7 +105,7 @@ const membersData = [
         chineseZodiac : "Dog",
     },
     {
-        id: 6,
+        id: "garam",
         name: "Kim Garam (Former member)",
         birthname: "Kim Ga-ram",
         imageSrc: garam,

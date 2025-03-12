@@ -9,7 +9,7 @@ const MemberDetails = () => {
   ScrollToTopOnLoad();
   const { id } = useParams();
   const navigate = useNavigate();
-  const member = membersData.find((m) => m.id === parseInt(id));
+  const member = membersData.find((m) => m.id === id);
 
   if (!member) {
     return <h2 className="text-center mt-5">Member not found!</h2>;
