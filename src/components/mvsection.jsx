@@ -5,7 +5,7 @@ const MVSection = () => {
   const [expanded, setExpanded] = useState(false);
 
   const videos = [
-    { title: "Hot", iframeSrc: "https://www.youtube.com/embed/u2_lqf5ccN0?si=6JIviLsj1k-uGWyX" },
+    { title: "Hot", iframeSrc: "https://www.youtube.com/embed/r9AEGPB6qIU?si=453U3s6fmSc2L7MH" },
     { title: "Star Signs", iframeSrc: "https://www.youtube.com/embed/E3RPpBJrJFQ?si=5Oh_XarbWLT1grY6" },
     { title: "Crazy", iframeSrc: "https://www.youtube.com/embed/n6B5gQXlB-0?si=xH4x4YGU9xyu72Y7" },
     { title: "Smart", iframeSrc: "https://www.youtube.com/embed/KNexS61fjus?si=4C047g0RYZrPZj9p_" },
