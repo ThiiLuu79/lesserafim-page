@@ -1,4 +1,4 @@
-export const discographyData = [
+const discographyData = [
   {
     "title": "FEARLESS",
     "type": "1st Mini Album",
@@ -304,4 +304,5 @@ export const discographyData = [
       "HOT (HONG EUNCHAE ver.)"
     ]
   }
-]
+];
+export default discographyData;
