@@ -1,3 +1,31 @@
+import fearless from "../images/discography/fearless.png";
+import antifragile from "../images/discography/antifragile.png";
+import fearlessJP from "../images/discography/fearlessJP.png";
+import unforgiven from "../images/discography/unforgiven.png"
+import guardian from "../images/discography/guardian.png"
+import eptbf from "../images/discography/eptbf.png"
+import unforgivenJP from "../images/discography/unforgivenJP.png"
+import perfectNight from "../images/discography/perfectNight.png"
+import perfectNightRemix from "../images/discography/perfectNightRemix.png"
+import dresscode from "../images/discography/dresscode.png"
+import perfectNightHoliday from "../images/discography/perfectNightHoliday.png"
+import easy from "../images/discography/easy.png"
+import easyEN from "../images/discography/easyEN.png"
+import easyRemix from "../images/discography/easyRemix.png"
+import smartRemix from "../images/discography/smartRemix.png"
+import perfectNightFearnot from "../images/discography/perfectNightFEARNOT.png"
+import crazy from "../images/discography/crazy.png"
+import crazyRemix from "../images/discography/crazyParty.png"
+import crazyPink from "../images/discography/crazyPink.png"
+import crazyDavid from "../images/discography/crazyDavid.png"
+import crazyRemix2 from "../images/discography/crazyParty2.png"
+import starSign from "../images/discography/starSign.png"
+import crazyJP from "../images/discography/crazyJP.png"
+import crazyJPRemix from "../images/discography/crazyJPParty.png"
+import hot from "../images/discography/hot.png"
+import hotEN from "../images/discography/hotEN.png"
+import hotPackage from "../images/discography/hotPackage.png"
+
 const discographyData = [
   {
     "title": "FEARLESS",
@@ -9,7 +37,8 @@ const discographyData = [
       "Blue Flame",
       "The Great Mermaid",
       "Sour Grapes"
-    ]
+    ],
+    "img": fearless
   },
   {
     "title": "ANTIFRAGILE",
@@ -21,7 +50,8 @@ const discographyData = [
       "Impurities",
       "No Celestial",
       "Good Parts (when the quality is bad but I am)"
-    ]
+    ],
+    "img": antifragile
   },
   {
     "title": "FEARLESS (Japanese ver.)",
@@ -31,7 +61,8 @@ const discographyData = [
       "FEARLESS (Japanese ver.)",
       "Blue Flame (Japanese ver.)",
       "Choices"
-    ]
+    ],
+    "img": fearlessJP
   },
   {
     "title": "UNFORGIVEN",
@@ -50,8 +81,9 @@ const discographyData = [
       "Eve, Psyche & The Bluebeard's wife",
       "FEARNOT (Between you, me and the lamppost)",
       "Flash Forward",
-      "Fire in the belly"
-    ]
+      "Fire in the belly",
+    ],
+    "img": unforgiven
   },
   {
     "title": "Guardian",
@@ -60,7 +92,8 @@ const discographyData = [
     "songs": [
       "Guardian",
       "Guardian (Instrumental)"
-    ]
+    ],
+    "img": guardian
   },
   {
     "title": "Eve, Psyche & The Bluebeard's Wife (feat. BIBI, Camo, Mirani)",
@@ -68,7 +101,8 @@ const discographyData = [
     "release_date": "2023-06-27",
     "songs": [
       "Eve, Psyche & The Bluebeard's Wife (feat. BIBI, Camo, Mirani)"
-    ]
+    ],
+    "img": eptbf
   },
   {
     "title": "Eve, Psyche & The Bluebeard's Wife (English Ver.)",
@@ -76,7 +110,8 @@ const discographyData = [
     "release_date": "2023-07-06",
     "songs": [
       "Eve, Psyche & The Bluebeard's Wife (English Ver.)"
-    ]
+    ],
+    "img": eptbf
   },
   {
     "title": "UNFORGIVEN (Japanese ver.)",
@@ -86,7 +121,8 @@ const discographyData = [
       "UNFORGIVEN -Japanese ver.- (ft.Nile Rodgers, Ado)",
       "ANTIFRAGILE (Japanese ver.)",
       "ジュエリー (Prod.imase)"
-    ]
+    ],
+    "img": unforgivenJP
   },
   {
     "title": "Perfect Night",
@@ -94,7 +130,8 @@ const discographyData = [
     "release_date": "2023-10-27",
     "songs": [
       "Perfect Night"
-    ]
+    ],
+    "img": perfectNight
   },
   {
     "title": "Perfect Night (Remix)",
@@ -103,7 +140,8 @@ const discographyData = [
     "songs": [
       "Perfect Night (Speed Up ver.)",
       "Perfect Night (Slowed + Reverb ver.)"
-    ]
+    ],
+    "img": perfectNightRemix
   },
   {
     "title": "ドレスコード (Dresscode) (Prod. imase)",
@@ -111,7 +149,8 @@ const discographyData = [
     "release_date": "2023-11-19",
     "songs": [
       "ドレスコード (Dresscode) (Prod. imase)"
-    ]
+    ],
+    "img": dresscode
   },
   {
     "title": "Perfect Night (Holiday Remix)",
@@ -119,7 +158,8 @@ const discographyData = [
     "release_date": "2023-11-23",
     "songs": [
       "Perfect Night (Holiday Remix)"
-    ]
+    ],
+    "img": perfectNightHoliday
   },
   {
     "title": "EASY",
@@ -131,7 +171,8 @@ const discographyData = [
       "Swan Song",
       "Snart",
       "We got so much"
-    ]
+    ],
+    "img": easy
   },
   {
     "title": "EASY (English Ver.)",
@@ -141,7 +182,8 @@ const discographyData = [
       "EASY (English Ver.)",
       "EASY (English Ver.) (Speed Up ver.)",
       "EASY (English Ver.) (Slowed + Reverb ver.)"
-    ]
+    ],
+    "img": easyEN
   },
   {
     "title": "EASY (Remixes)",
@@ -154,7 +196,8 @@ const discographyData = [
       "EASY (Sped Up ver.)",
       "EASY (Slowed + Reverb ver.)",
       "EASY (Instrumental)"
-    ]
+    ],
+    "img": easyRemix
   },
   {
     "title": "Smart (Remixes)",
@@ -170,7 +213,8 @@ const discographyData = [
       "Smart (Sped Up ver.)",
       "Smart (Slowed + Reverb ver.)",
       "Smart (Instrumental)"
-    ]
+    ],
+    "img": smartRemix
   },
   {
     "title": "Perfect Night (For FEARNOT)",
@@ -179,7 +223,8 @@ const discographyData = [
     "songs": [
       "Perfect Night (for FEARNOT)",
       "Perfect Night"
-    ]
+    ],
+    "img": perfectNightFearnot
   },
   {
     "title": "CRAZY",
@@ -191,7 +236,8 @@ const discographyData = [
       "Pierrot",
       "1-800-hot-n-fun",
       "미치지 못하는 이유"
-    ]
+    ],
+    "img": crazy
   },
   {
     "title": "CRAZY (Party Remixes 1)",
@@ -206,7 +252,8 @@ const discographyData = [
       "CRAZY (Sped Up ver.)",
       "CRAZY (Slowed + Reverb ver.)",
       "CRAZY (Inst.)"
-    ]
+    ],
+    "img": crazyRemix
   },
   {
     "title": "CRAZY (Feat. PinkPantheress)",
@@ -215,7 +262,8 @@ const discographyData = [
     "songs": [
       "CRAZY",
       "CRAZY (feat. PinkPantheress)"
-    ]
+    ],
+    "img": crazyPink
   },
   {
     "title": "CRAZY (David Guetta Remix)",
@@ -225,7 +273,8 @@ const discographyData = [
       "CRAZY (David Guetta Remix)",
       "CRAZY",
       "CRAZY (David Guetta Remix) (Extended ver.)"
-    ]
+    ],
+    "img": crazyDavid
   },
   {
     "title": "CRAZY (Party Remixes 2)",
@@ -237,7 +286,8 @@ const discographyData = [
       "CRAZY (Super Crazy Remix)",
       "CRAZY (Vamos Remix)",
       "CRAZY (Mash-up ver.) (feat. PinkPantheress, Dashaun Wesley)"
-    ]
+    ],
+    "img": crazyRemix2
   },
   {
     "title": "Star Signs",
@@ -245,7 +295,8 @@ const discographyData = [
     "release_date": "2024-11-13",
     "songs": [
       "Star Signs"
-    ]
+    ],
+    "img": starSign
   },
   {
     "title": "CRAZY (Japenese ver.)",
@@ -255,7 +306,8 @@ const discographyData = [
       "CRAZY (Japanese ver.)",
       "EASY (Japanese ver.)",
       "Star Signs"
-    ]
+    ],
+    "img": crazyJP
   },
   {
     "title": "CRAZY (Japanese ver.) (Party Remixes)",
@@ -265,7 +317,8 @@ const discographyData = [
       "CRAZY (Japanese ver.)",
       "CRAZY (Japanese ver.) (feat.JP THE WAVY)",
       "CRAZY (Japanese ver.) (Chaki Zulu Remix)"
-    ]
+    ],
+    "img": crazyJPRemix
   },
   {
     "title": "HOT",
@@ -277,7 +330,8 @@ const discographyData = [
       "Come Over",
       "Ash",
       "So Cynical (Badum)"
-    ]
+    ],
+    "img": hot
   },
   {
     "title": "HOT (English ver.)",
@@ -289,7 +343,8 @@ const discographyData = [
       "HOT (Sped Up ver.)",
       "HOT (Slowed + Reverb ver.)",
       "HOT (Inst.)"
-    ]
+    ],
+    "img": hotEN
   },
   {
     "title": "HOT (LE SSERAFIM Package)",
@@ -302,7 +357,8 @@ const discographyData = [
       "HOT (HUH YUNJIN ver.)",
       "HOT (KAZUHA ver.)",
       "HOT (HONG EUNCHAE ver.)"
-    ]
+    ],
+    "img": hotPackage
   }
 ];
 export default discographyData;

@@ -8,8 +8,7 @@ const DiscographyTimelineItem = ({ title, type, release_date, songs, img, revers
         <div className="timeline-body">
             <div className="timeline-content">
                 <div className="card border-0">
-                  {/* uncomment if we want to add pictures to DiscographyData in the future */}
-                    {/* <img className="card-img-top img-fluid" loading="lazy" src={img} alt={title} /> */}
+                    <img className="card-img-top img-fluid" loading="lazy" src={img} alt={title} />
                     <div className="card-body border border-top-0 border-light-subtle">
                         <h2 className="card-title mb-2">{title}</h2>
                         <h6 className="card-subtitle text-secondary mb-3">{release_date} | {type}</h6>

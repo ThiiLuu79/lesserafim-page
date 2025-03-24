@@ -16,6 +16,7 @@ const DiscographyTimeline = () => {
                     type={item.type}
                     release_date={item.release_date}
                     songs={item.songs}
+                    img={item.img}
                     reverse={index % 2 === 0}
                   />
                 ))}
