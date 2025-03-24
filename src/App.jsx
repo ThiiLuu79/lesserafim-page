@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MVSection from './components/mvsection';
+import DiscographySection from './components/discographysection';
 import MembersSection from './components/membersection';
 import MemberDetails from './components/memberdetails';
 import Navbar from './components/navbar';
@@ -29,6 +30,7 @@ function App() {
             <Header />
             <About />
             <MVSection />
+            <DiscographySection />
             <MembersSection />
             <Footer />
           </>
