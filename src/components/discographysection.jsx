@@ -15,6 +15,7 @@ const DiscographySection = () => {
         <p className="lead text-center">
           Here is a list of all the albums and singles released by LE SSERAFIM. Click on the button below to view the discography.
         </p>
+        <p className='lead text-center'>Informations are taken from <a href="https://kprofiles.com/le-sserafim-discography/" target="_blank" rel="noreferrer">LE SSERAFIM Discography page</a> </p>
         {showTimeline && <DiscoGraphyTimeLine />}
         <div className="text-center my-4">
           <button 

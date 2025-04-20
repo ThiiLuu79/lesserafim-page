@@ -25,6 +25,8 @@ import crazyJPRemix from "../images/discography/crazyJPParty.png"
 import hot from "../images/discography/hot.png"
 import hotEN from "../images/discography/hotEN.png"
 import hotPackage from "../images/discography/hotPackage.png"
+import comeoverremix from "../images/discography/comeoverremix.png"
+import hotjade from "../images/discography/hotjade.png"
 
 const discographyData = [
   {
@@ -359,6 +361,31 @@ const discographyData = [
       "HOT (HONG EUNCHAE ver.)"
     ],
     "img": hotPackage
-  }
+  },
+  {
+    "title": "Come Over (Remixes)",
+    "type": "Remixes Single",
+    "release_date": "2025-03-31",
+    "songs": [
+      "Come Over",
+      "Come Over (Hyperpop Remix)",
+      "Come Over (Bossa Nova Remix)",
+      "Come Over (Funk Remix)",
+      "Come Over (Sped Up ver.)",
+      "Come Over (Slowed + Reverb ver.)",
+      "Come Over (Inst.)"
+    ],
+    "img": comeoverremix
+  },
+  {
+    "title": "HOT (English ver.) (feat. JADE)",
+    "type": "English Single",
+    "release_date": "2025-04-14",
+    "songs": [
+      "HOT",
+      "HOT (English ver.) (feat. JADE)"
+    ],
+    "img": hotjade
+  },
 ];
 export default discographyData;
