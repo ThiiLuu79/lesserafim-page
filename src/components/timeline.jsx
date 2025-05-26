@@ -49,7 +49,7 @@ const Timeline = () => {
                 <TimelineItem
                     imageSrc={hot}
                     title="Hot and first world tour"
-                    date="2025 - Present"
+                    date="2025"
                     alt="Hot and first world tour"
                     text="On February 17, 2025, it was announced that Le Sserafim's fifth extended play Hot would be released on March 14. On February 28, the group announced that they would be embarking on their first world tour, Easy Crazy Hot, beginning in Incheon on April 19 and 20."
                     reverse={false}

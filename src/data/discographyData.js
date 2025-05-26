@@ -27,6 +27,7 @@ import hotEN from "../images/discography/hotEN.png"
 import hotPackage from "../images/discography/hotPackage.png"
 import comeoverremix from "../images/discography/comeoverremix.png"
 import hotjade from "../images/discography/hotjade.png"
+import different from "../images/discography/different.png";
 
 const discographyData = [
   {
@@ -386,6 +387,15 @@ const discographyData = [
       "HOT (English ver.) (feat. JADE)"
     ],
     "img": hotjade
+  },
+  {
+    "title": "DIFFERENT",
+    "type": "4th Japanese Single",
+    "release_date": "2025-06-24",
+    "songs": [
+      "DIFFERENT"
+    ],
+    "img": different
   },
 ];
 export default discographyData;

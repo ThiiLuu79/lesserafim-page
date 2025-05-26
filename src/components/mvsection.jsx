@@ -26,7 +26,7 @@ const MVSection = () => {
     <section id="music-videos" className="py-5" data-aos="fade-right">
       <div className="container">
         <h2 className="text-center mb-4">Music Videos</h2>
-        <p className="text-center">Here are some of LE SSERAFIM's music videos!</p>
+        <p className="lead text-center">Here are some of LE SSERAFIM's music videos!</p>
 
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {visibleVideos.map((video, index) => (
