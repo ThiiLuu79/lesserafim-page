@@ -11,8 +11,6 @@ Welcome to the **LE SSERAFIM Fanpage**, a React single-page application dedicate
 - **👑 Member Profiles** – Learn more about each member with bios and images.
 - **💜 Stylish UI** – Designed to reflect the elegance and power of LE SSERAFIM.
 
-![LE SSERAFIM Dance](https://media.giphy.com/media/HFIRcwvz0Uek9xVCws/giphy.gif?cid=ecf05e474lv7dzes6xt252s5n7gwfj5vthaemvw5ux76q6w9&ep=v1_gifs_search&rid=giphy.gif&ct=g)
-
 ## Technologies Used 🛠️
 - **React** – For a dynamic and seamless user experience.
 - **CSS & Styled Components** – To enhance the UI with custom styling.
