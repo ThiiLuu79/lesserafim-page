@@ -9,7 +9,7 @@ const DiscographySection = () => {
   };
 
   return (
-    <section id="about" className="py-5" data-aos="fade-right">
+    <section id="discography" className="py-5" data-aos="fade-right">
       <div className="container">
         <h2 className="text-center mb-4">Discography</h2>
         <p className="lead text-center">
